@@ -1,0 +1,24 @@
+.grandparent {
+  background: #f01515;
+  height: 300px;
+  width: 300px;
+}
+
+.parent {
+  background: #1515f0;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.child {
+  background: #15f015;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: flex;
+  justify-self: center;
+
+}
